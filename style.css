@@ -55,6 +55,21 @@ header .search-container .material-symbols-outlined {
 
 .images-container {
     margin-block: 50px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.images-container .imageDiv {
+    position: relative;
+}
+.images-container img {
+    width: 300px;
+    height: 280px;
+}
+.images-container .overlay {
+    position: absolute;
 }
 
